@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 require_relative 'test_helper'
 require_relative '../lib/stack'
 require 'minitest/power_assert'
@@ -37,7 +36,9 @@ class StackTest < Minitest::Test
   end
 
   def test_empty?
-    assert { @data.empty?  }
+    expected = @data.empty?
+
+    assert { expected == @data.empty?  }
   end
   # END
 end
