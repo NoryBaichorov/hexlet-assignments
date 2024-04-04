@@ -8,6 +8,6 @@ console:
 	bin/rails console
 
 test:
-	NODE_ENV=test bin/rails test --trace
+	NODE_ENV=test bin/rails test
 
 .PHONY: test

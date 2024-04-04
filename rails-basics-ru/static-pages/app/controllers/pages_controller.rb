@@ -1,5 +1,5 @@
-class PagesController < ApplicationController
-  def show
+# frozen_string_literal: true
 
-  end
+class PagesController < ApplicationController
+  def show; end
 end
