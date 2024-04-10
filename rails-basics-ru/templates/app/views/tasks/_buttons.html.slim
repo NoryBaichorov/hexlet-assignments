@@ -1,0 +1,4 @@
+= link_to 'Edit this Task', edit_task_path(@task)
+br
+br
+= button_to 'Delete this Task', { :controller => :tasks, :action => :destroy, id: @task.id }, method: :delete
