@@ -1,0 +1,11 @@
+<h2><%= @post.title%></h2>
+<br>
+<p><%= @post.body%></p>
+<br>
+<p><%= @post.summary%></p>
+<br>
+<p><%= @post.published%></p>
+
+<%= link_to 'Edit this post', edit_post_path(@post) %>
+<br>
+<%= button_to 'Delete this post', post_path(@post), method: :delete %>

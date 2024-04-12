@@ -1,0 +1,7 @@
+<%= simple_form_for @post do |f| %>
+  <%= f.input :title, placeholder: 'Please type title of your post ...', label: false %>
+  <%= f.input :body, as: :text, placeholder: 'Please type your message ...', label: false %>
+  <%= f.input :summary, placeholder: 'Please type summary of post ...', label: false %>
+  <%= f.input :published, as: :boolean %>
+  <%= f.button :submit %>
+<% end %>
