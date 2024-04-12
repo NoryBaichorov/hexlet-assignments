@@ -1,0 +1,11 @@
+<h3><%= @task.name %></h3>
+<br>
+<p><%= "Description - '#{@task.description}'" %></p>
+<br>
+<p><%= "Task for #{@task.user.name }" %></p>
+<br>
+<p><%= "Status of this task is - #{@task.status.name}" %></p>
+<br>
+<%= link_to 'Edit Task', edit_task_path(@task) %>
+<br>
+<%= button_to 'Delete this task', task_path(@task), method: :delete %>

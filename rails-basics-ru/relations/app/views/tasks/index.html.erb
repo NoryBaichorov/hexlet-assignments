@@ -1,0 +1,12 @@
+<%= link_to 'Add New Task', new_task_path %>
+<br>
+<% @tasks.each do |task| %>
+  <div>
+    <%= link_to task.name, task_path(task) %>
+    <br>
+    <%= "Current_status -> #{task.status.name}" %>
+    <br>
+    <%= "User -> #{task.user.name}" %>
+  </div>
+  <hr>
+<% end %>
