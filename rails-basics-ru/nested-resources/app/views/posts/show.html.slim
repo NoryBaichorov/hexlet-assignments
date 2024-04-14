@@ -8,7 +8,7 @@ p
   strong.me-2 Comments:
   - @post.post_comments.each do |comment|
     ul
-      li #{comment.comment}
+      li #{comment.title}
       = link_to 'Edit this comment', edit_comment_path(comment), class: 'btn btn-outline-primary'
       = link_to 'Destroy', comment_path(comment), data: { turbo_method: :delete, turbo_confirm: 'Are you sure?' }, class: 'link-danger'
 / END
