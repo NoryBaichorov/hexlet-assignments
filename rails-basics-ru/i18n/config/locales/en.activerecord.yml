@@ -1,0 +1,27 @@
+en:
+  activerecord:
+    attributes:
+      # BEGIN
+      post:
+        title: Title
+        body: Body
+      # END
+      post/comment:
+        body: Body
+
+    models:
+      # BEGIN
+      post: Post
+      # END
+      post/comment: Comment
+
+    errors:
+      models:
+        post:
+          attributes:
+            # BEGIN
+            title:
+              blank: can't be blank!
+            body:
+              max_length: The body must not exceed 500 characters.
+            # END

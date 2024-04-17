@@ -1,0 +1,19 @@
+ru:
+  posts:
+    # BEGIN
+    comments_count:
+      one: "%{count} комментарий"
+      few: "%{count} комментария"
+      many: "%{count} комментариев"
+      zero: Нет комментариев
+    # END
+
+    comments:
+      edit:
+        title: Изменить комментарий
+
+      create:
+        success: Комментарий создан.
+
+      update:
+        success: Комментарий обновлен.

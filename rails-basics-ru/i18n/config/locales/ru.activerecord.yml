@@ -1,0 +1,27 @@
+ru:
+  activerecord:
+    attributes:
+      post:
+        # BEGIN
+        title: Название
+        body: Содержание
+        # END
+      post/comment:
+        body: Содержание
+
+    models:
+      # BEGIN
+      post: Пост
+      # END
+      post/comment: Комментарий
+
+    errors:
+      models:
+        post:
+          attributes:
+            # BEGIN
+            title:
+              blank: не может быть пустым
+            body:
+              max_length: Содержимое не должно превышать 500 символов.
+            # END

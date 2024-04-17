@@ -1,0 +1,19 @@
+en:
+  posts:
+    # BEGIN
+    comments_count:
+      one: "%{count} comment"
+      few: "%{count} comments"
+      many: "%{count} comments"
+      zero: No comments
+    # END
+
+    comments:
+      edit:
+        title: Editing comment
+
+      create:
+        success: Comment was created.
+
+      update:
+        success: Comment was updated.

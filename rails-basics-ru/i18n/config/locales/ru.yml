@@ -1,0 +1,21 @@
+ru:
+  back: Назад
+  comments: Комментарии
+  edit: Редактировать
+  edit_post_page_title: Редактировать пост
+  destroy: Удалить
+  destroy_confirmation: Вы уверены?
+  hexlet_title: Хекслет
+  home: Домой
+  new: Создать
+  new_post_page_title: Создать пост
+  posts_title: Посты
+  posts:
+    create:
+      success: Пост был успешно создан.
+    destroy:
+      success: Пост был успешно удален.
+    update:
+      success: Пост был успешно отредактирован.
+  show: Показать
+  title: Интернационализация

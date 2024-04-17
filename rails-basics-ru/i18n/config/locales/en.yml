@@ -1,0 +1,21 @@
+en:
+  back: Back
+  comments: Comments
+  edit: Edit
+  edit_post_page_title: Edit post
+  destroy: Delete
+  destroy_confirmation: Are you sure?
+  hexlet_title: Hexlet
+  home: Home
+  new: Add
+  new_post_page_title: Add new post
+  posts_title: Posts
+  posts:
+    create:
+      success: Post has been successfully created.
+    destroy:
+      success: Post has been successfully deleted.
+    update:
+      success: Post has been successfully updated.
+  show: Show
+  title: Internationalization
