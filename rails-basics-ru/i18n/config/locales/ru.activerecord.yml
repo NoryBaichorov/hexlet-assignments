@@ -11,7 +11,7 @@ ru:
 
     models:
       # BEGIN
-      post: Пост
+      post: Посты
       # END
       post/comment: Комментарий
 
@@ -21,7 +21,7 @@ ru:
           attributes:
             # BEGIN
             title:
-              blank: не может быть пустым
+              blank: Должно быть заполнено
             body:
               max_length: Содержимое не должно превышать 500 символов.
             # END

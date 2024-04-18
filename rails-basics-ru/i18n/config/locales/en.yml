@@ -1,21 +1,26 @@
 en:
   back: Back
   comments: Comments
+  create_button_value: Create Post
   edit: Edit
   edit_post_page_title: Edit post
   destroy: Delete
   destroy_confirmation: Are you sure?
   hexlet_title: Hexlet
   home: Home
-  new: Add
-  new_post_page_title: Add new post
+  layouts:
+    shared:
+      nav:
+        hexlet_logo: hexlet_logo
+  new: New Post
+  new_post_page_title: New Post
   posts_title: Posts
   posts:
     create:
-      success: Post has been successfully created.
+      success: Post was created.
     destroy:
-      success: Post has been successfully deleted.
+      success: Post was destroyed.
     update:
-      success: Post has been successfully updated.
+      success: Post was updated.
   show: Show
-  title: Internationalization
+  title: Home page

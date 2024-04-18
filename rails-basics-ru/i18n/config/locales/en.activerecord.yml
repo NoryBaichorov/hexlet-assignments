@@ -11,7 +11,7 @@ en:
 
     models:
       # BEGIN
-      post: Post
+      post: Posts
       # END
       post/comment: Comment
 
@@ -21,7 +21,7 @@ en:
           attributes:
             # BEGIN
             title:
-              blank: can't be blank!
+              blank: should be filled
             body:
               max_length: The body must not exceed 500 characters.
             # END

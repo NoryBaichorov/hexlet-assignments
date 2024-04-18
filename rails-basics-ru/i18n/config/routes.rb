@@ -4,10 +4,12 @@ Rails.application.routes.draw do
   # BEGIN
   get '/:locale', to: 'home#index'
   root 'home#index'
-  
+
   scope '/:locale' do
     resources :posts do
-      resources :comments, except: %i[index show]
+      scope module: :posts do
+        resources :comments, except: %i[index show]
+      end
     end
   end
   # END

@@ -3,14 +3,14 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
+gem 'annotate'
+gem 'i18n-debug'
 gem 'jbuilder'
 gem 'puma'
 gem 'rails', '~> 7.1'
-gem 'sqlite3'
-gem 'rubocop'
-gem 'annotate'
 gem 'rails-i18n'
-gem 'i18n-debug'
+gem 'rubocop'
+gem 'sqlite3'
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem 'sprockets-rails'
@@ -47,7 +47,7 @@ group :development do
   gem 'web-console', '>= 4.1.0'
 
   # BEGIN
-  
+
   # END
 end
 

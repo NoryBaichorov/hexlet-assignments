@@ -1,21 +1,26 @@
 ru:
   back: Назад
   comments: Комментарии
+  create_button_value: Создать Пост
   edit: Редактировать
-  edit_post_page_title: Редактировать пост
+  edit_post_page_title: Редактирование поста
   destroy: Удалить
   destroy_confirmation: Вы уверены?
   hexlet_title: Хекслет
   home: Домой
-  new: Создать
-  new_post_page_title: Создать пост
+  layouts:
+    shared:
+      nav:
+        hexlet_logo: Логотип Хекслета
+  new: Новый пост
+  new_post_page_title: Новый пост
   posts_title: Посты
   posts:
     create:
-      success: Пост был успешно создан.
+      success: Пост создан.
     destroy:
-      success: Пост был успешно удален.
+      success: Пост удален.
     update:
-      success: Пост был успешно отредактирован.
+      success: Пост обновлен.
   show: Показать
-  title: Интернационализация
+  title: Домашняя страница

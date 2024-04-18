@@ -10,7 +10,7 @@ en:
     placeholders:
       # BEGIN
       post:
-        title: Please type post title
+        title: Enter post title
         body: Please type post body
       # END
       post_comment:

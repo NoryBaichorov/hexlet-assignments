@@ -10,7 +10,7 @@ ru:
     placeholders:
       # BEGIN
       post:
-        title: Введите название поста
+        title: Название
         body: Введите содержание поста
       # END
       post_comment:

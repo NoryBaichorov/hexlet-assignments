@@ -5,6 +5,7 @@ ru:
       one: "%{count} комментарий"
       few: "%{count} комментария"
       many: "%{count} комментариев"
+      other: "%{count} комментариев"
       zero: Нет комментариев
     # END
 

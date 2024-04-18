@@ -5,6 +5,7 @@ en:
       one: "%{count} comment"
       few: "%{count} comments"
       many: "%{count} comments"
+      other: "%{count} comments"
       zero: No comments
     # END
 

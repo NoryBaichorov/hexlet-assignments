@@ -24,8 +24,7 @@ table.table.table-striped.table-hover.mb-5
         td
           / comments count
           / BEGIN
-          
-          / END
+          = t('posts.comments_count', count: post.comments.count)
         td.d-flex
           / posts links
           / BEGIN
@@ -37,7 +36,6 @@ table.table.table-striped.table-hover.mb-5
           / END
 
 / new post link
-= link_to new_post_path, class: 'btn btn-primary' do
+= link_to t(:new), new_post_path, class: 'btn btn-primary', id: 'new-post-link'
   / BEGIN
-  = t(:new)
   / END
