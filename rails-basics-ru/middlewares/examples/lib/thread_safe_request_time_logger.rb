@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class ThreadSafeRequestTimeLogger
   attr_reader :app, :logger_indentificator
 

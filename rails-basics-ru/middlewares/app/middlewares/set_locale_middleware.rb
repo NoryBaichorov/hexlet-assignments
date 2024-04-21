@@ -13,13 +13,20 @@ class SetLocaleMiddleware
   end
 
   def _call(env)
-    @status, @headers, @response = app.call(env)
+    locale = extract_locale(env['HTTP_ACCEPT_LANGUAGE']) || I18n.default_locale
+    I18n.locale = locale
 
-    @headers['HTTP_ACCEPT_LANGUAGE'] = I18n.locale
+    app.call(env)
+  end
 
-    pp "*** FROM MIDDLEWARE -> #{@headers['HTTP_ACCEPT_LANGUAGE']} ***"
-    
-    [@status, @headers, @response]
+  private
+
+  def extract_locale(header)
+    return if header.nil?
+
+    locale = header.scan(/^[a-z]{2}/).first.to_sym
+
+    I18n.available_locales.include?(locale) ? locale : nil
   end
   # END
 end

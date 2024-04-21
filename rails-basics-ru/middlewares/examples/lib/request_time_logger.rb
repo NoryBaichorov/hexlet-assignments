@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class RequestTimeLogger
   attr_reader :app, :logger_indentificator
 
