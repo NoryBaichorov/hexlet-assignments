@@ -1,0 +1,17 @@
+en:
+  hello: "Hello world"
+  posts:
+    create:
+      success: 'Post was successfully created.'
+    update:
+      success: 'Post was successfully updated.'
+    destroy:
+      success: 'Post was successfully destroyed.'
+    comments:
+      create:
+        success: 'Comment was successfully created.'
+        fail: 'Comment has not been added'
+      update:
+        success: 'Comment was successfully updated.'
+      destroy:
+        success: 'Comment was successfully destroyed.'
