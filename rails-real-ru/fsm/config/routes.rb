@@ -3,8 +3,8 @@
 Rails.application.routes.draw do
   resources :vacancies, only: %i[index new create] do
     # BEGIN
-    patch :publish, to: 'vacancies#change_vacancy_state'
-    patch :archive, to: 'vacancies#change_vacancy_state'
+    patch :publish, to: 'vacancies#set_published_state'
+    patch :archive, to: 'vacancies#set_archived_state'
     # END
   end
 

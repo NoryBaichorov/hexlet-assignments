@@ -7,7 +7,7 @@ class Vacancy < ApplicationRecord
   validates :description, presence: true
 
   # BEGIN
-    aasm :column => 'vacancy_state' do
+    aasm :column => 'aasm_state', whiny_transitions: true do
       state :on_moderate, initial: true
       state :published, :archived
 

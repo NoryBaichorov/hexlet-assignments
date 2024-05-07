@@ -32,7 +32,7 @@ class VacanciesControllerTest < ActionDispatch::IntegrationTest
   test 'publish on moderate' do
     vacancy = vacancies(:on_moderate)
 
-    patch publish_vacancy_path(vacancy)
+    patch vacancy_publish_path(vacancy)
 
     vacancy.reload
 
@@ -43,7 +43,7 @@ class VacanciesControllerTest < ActionDispatch::IntegrationTest
   test 'archive on moderate' do
     vacancy = vacancies(:on_moderate)
 
-    patch archive_vacancy_path(vacancy)
+    patch vacancy_archive_path(vacancy)
 
     vacancy.reload
 
@@ -54,7 +54,7 @@ class VacanciesControllerTest < ActionDispatch::IntegrationTest
   test 'archive published' do
     vacancy = vacancies(:published)
 
-    patch archive_vacancy_path(vacancy)
+    patch vacancy_archive_path(vacancy)
 
     vacancy.reload
 
@@ -65,7 +65,7 @@ class VacanciesControllerTest < ActionDispatch::IntegrationTest
   test 'refute publish archived' do
     vacancy = vacancies(:archived)
 
-    patch publish_vacancy_path(vacancy)
+    patch vacancy_publish_path(vacancy)
 
     vacancy.reload
 
