@@ -1,0 +1,8 @@
+html
+  body
+    h1
+      = t('user_mailer.account_activation.greeting', user_name: @user.name)
+    p
+      = t('user_mailer.account_activation.welcome_text')
+    a[href="#{@url}"]
+      = t('user_mailer.account_activation.confirm')
