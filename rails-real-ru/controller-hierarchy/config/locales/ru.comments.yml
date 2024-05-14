@@ -1,0 +1,19 @@
+---
+ru:
+  web:
+    movies:
+      comments:
+        edit:
+          edit_movie_comment: Редактировать комментарий
+          success: Комментарий обновлен
+        index:
+          back: Назад к фильмам
+          movie_comments: 'Комментарии фильма: %{movie}'
+          new_movie_comment: Новый комментарий
+        new:
+          new_movie_comment: Новый комментарий
+        create:
+          success: Комментарий создан
+        destroy:
+          success: Комментарий удален
+
